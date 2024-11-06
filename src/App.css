@@ -40,3 +40,35 @@
 .read-the-docs {
   color: #888;
 }
+
+.PostCard {
+  align-items: center;
+  background-color: black;
+  color: whitesmoke;
+  border: 4px solid grey;
+  border-radius: 12px;
+  margin: 10px;
+  padding: 20px;
+}
+
+.PostForm {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color: lightslategrey;
+  color: whitesmoke;
+  gap: 15px;
+  border: 4px solid lightblue;
+  border-radius: 12px;
+  padding: 15px;
+}
+
+button {
+  background-color: black;
+  color: whitesmoke;
+}
+
+.input {
+  border: 2px solid yellow;
+  border-radius: 3px;
+}
