@@ -1,7 +1,6 @@
 import React from "react";
 
 function PostForm({ newPost, setNewPost, handleAddPost }) {
-  // Handle input change
   const handleChange = (e) => {
     const { name, value } = e.target;
     setNewPost((prev) => ({ ...prev, [name]: value }));
